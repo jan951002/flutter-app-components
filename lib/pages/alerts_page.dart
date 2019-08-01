@@ -9,6 +9,10 @@ class AlertsPage extends StatelessWidget {
         title: Text('Alerts'),
         centerTitle: true,
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () => Navigator.pop(context),
+        child: Icon(Icons.keyboard_backspace),
+      ),
     );
   }
 }
